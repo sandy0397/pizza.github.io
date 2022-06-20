@@ -1,0 +1,68 @@
+@media (max-width: 991px) {
+
+    /*custom classes  */ 
+    .text-content{
+        width:100%;
+    }
+
+    /* navbar brand */ 
+    .navigation-wrap .navbar-brand img{
+        height:60px;
+    }
+    .navigation-wrap{
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .navigation-wrap .nav-link{
+        line-height: 30px;
+        color:var(--black-color);
+    }
+
+    /* Banner Design */ 
+    .top-banner{
+        padding:150px 0 150px;
+    }
+
+    /* carousel design */ 
+    .testimonial-section .carousel-caption p{
+        padding:0;
+    }
+
+    /* footer link */ 
+    .footer .footer-social a i{
+        padding:0 12px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* custom css */
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 20.8px;
+        line-height: 28px;
+    }
+
+    /* top banner */ 
+    .top-banner{
+        padding:166px 0 150px;
+    }
+
+    /* carousel design */ 
+    .testimonial-section .carousel-item{
+        padding:176px 50px;
+    }
+}
+
+@media (max-width:330px) {
+
+    /* carousel design */
+    .testimonial-section .carousel-item{
+        padding:208px 50px;
+    } 
+}
+         
+      
